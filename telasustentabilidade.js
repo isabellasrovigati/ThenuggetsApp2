@@ -32,7 +32,7 @@ import { interfaceDeclaration, stringLiteral } from '@babel/types';
 
 function telasustentabilidade(props){
     
-  const handlePress = () => false
+  
 
   return (
     <>
@@ -153,8 +153,8 @@ const styles= StyleSheet.create({
         marginLeft:screenWidth*0.085,
         marginTop:screenHeight*0.015,
         height:screenHeight*0.07,
-        borderColor:'greenyellow',
-        backgroundColor:'greenyellow'
+        borderColor:'lightgreen',
+        backgroundColor:'lightgreen'
 
     },
     card1:{
@@ -163,8 +163,8 @@ const styles= StyleSheet.create({
         marginLeft:screenWidth*0.085,
         marginTop:screenHeight*0.02,
         height:screenHeight*0.065,
-        borderColor:'greenyellow',
-        backgroundColor:'greenyellow'
+        borderColor:'lightgreen',
+        backgroundColor:'lightgreen'
 
     },
     card2:{

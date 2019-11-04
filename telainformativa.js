@@ -34,7 +34,7 @@ import { interfaceDeclaration, stringLiteral } from '@babel/types';
 
 function telainformativa(props){
     
-  const handlePress = () => false
+  
 
   
   return (
@@ -87,7 +87,7 @@ function telainformativa(props){
 
 const styles= StyleSheet.create({
     head:{
-        color:'white',
+        color:'orange',
         fontSize:22,
         textAlign:'center',
         marginTop:screenHeight*0.033
@@ -107,7 +107,7 @@ const styles= StyleSheet.create({
 
     },
     grid:{
-        backgroundColor:'orange',
+        backgroundColor:'white',
         paddingBottom:screenHeight*0.18
 
     },

@@ -50,7 +50,7 @@ function telacadastro(props){
         <ScrollView>
          
         <View>
-        <View style= {{backgroundColor:props.backgroundcolor, width:screenWidth * 0.2,paddingTop:screenHeight * 0.08}}>
+        <View style= {{backgroundColor:props.backgroundcolor, width:screenWidth * 0.2}}>
        
        </View>
          <View style ={[styles.post, {backgroundColor:props.backgroundcolor}]}>
@@ -70,11 +70,12 @@ function telacadastro(props){
     <View>
      
       
-    <Text style ={{color:'black',marginTop:screenHeight * 0.08, textAlign:'center' ,fontFamily:'Verdana', fontSize:21}}>
+    <Text style ={{color:'darkorange',marginTop:screenHeight * 0.015, textAlign:'center' ,fontFamily:'Verdana', fontSize:21}}>
   Cadastro
 </Text>
+<Text style={{color:'black',marginTop:screenHeight * 0.01, textAlign:'center' ,fontFamily:'Verdana', fontSize:18}}>Informações de Cadastro</Text>
 
-  <TextInput placeholder='Nome'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  <TextInput placeholder='Nome'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
   
   </TextInput>
   <TextInput placeholder='Email' style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
@@ -86,8 +87,72 @@ function telacadastro(props){
 <TextInput placeholder='Confirmação da senha' style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
 
 </TextInput>
+<TextInput placeholder='É administrador?' style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
 
-
+</TextInput>
+<Text style={{color:'black',marginTop:screenHeight * 0.02, textAlign:'center' ,fontFamily:'Verdana', fontSize:18}}>Dados Pessoais</Text>
+<TextInput placeholder='Nome'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Sexo'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Data de Nascimento'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Naturalidade'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput> 
+  <TextInput placeholder='Nacionalidade'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Estado Cicil'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+  <Text style={{color:'black',marginTop:screenHeight * 0.02, textAlign:'center' ,fontFamily:'Verdana', fontSize:18}}>Documentos</Text>
+  <TextInput placeholder='RG'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='CPF'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='CTPS'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='PIS PASEP'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput> 
+  <TextInput placeholder='Certificado de Reservista'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Título Eleitoral'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+  <Text style={{color:'black',marginTop:screenHeight * 0.02, textAlign:'center' ,fontFamily:'Verdana', fontSize:18}}>Informações de Trabalho</Text>
+  <TextInput placeholder='Data de Admissão'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Cargo'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Turno'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Salário'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput> 
+  <TextInput placeholder='Férias'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Acidentes e Doenças'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+  <TextInput placeholder='Encargos Sociais'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
+   <TextInput placeholder='Filiação'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:10, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:10 }} >
+  
+  </TextInput>
   <View style = {styles.container}>
          <TouchableOpacity>
             <Text style = {styles.text}>
@@ -99,7 +164,7 @@ function telacadastro(props){
    <View style = {styles.container}>
         
       </View>
-      <Image/>
+      
      
     
    
@@ -147,7 +212,8 @@ const styles= StyleSheet.create({
     color:'white',
     height:screenHeight*0.05,
     paddingTop:screenHeight*0.01,
-    borderRadius:8
+    borderRadius:8,
+    marginBottom:screenHeight*0.1
  },
 
  text2: {

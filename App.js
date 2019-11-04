@@ -1,14 +1,9 @@
 
-
-
 import { screenWidth, screenHeight } from './src/components/dimensions';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import { createAppContainer } from 'react-navigation';
-
-
-
-
+import api from './api';
 
 
 
@@ -42,8 +37,7 @@ import { interfaceDeclaration, stringLiteral } from '@babel/types';
 
 function hello(props){
     
-  const handlePress = () => false
-
+  
   
   return (
     <>
@@ -77,7 +71,7 @@ function hello(props){
   Login 
 </Text>
 
-  <TextInput placeholder='nome ou email'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:18 }} >
+  <TextInput placeholder='username ou email'style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:18 }} >
   
   </TextInput>
   <TextInput placeholder='senha' style={{ height: 40, borderColor: 'gray', borderWidth: 0.8, marginTop:15, width:screenWidth*0.65, marginHorizontal:screenWidth*0.175, borderRadius:18 }} >
@@ -93,7 +87,7 @@ function hello(props){
       </View>
    </View>
    <View style = {styles.container}>
-[         <TouchableOpacity>
+     <TouchableOpacity>
             <Text style = {styles.text3}>
               Não é cadastrado? Cadastre-se aqui.
             </Text>

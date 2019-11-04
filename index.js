@@ -10,5 +10,7 @@ import telasustentabilidade from './telasustentabilidade';
 import telacadastro from './telacadastro';
 import telacalendario from './telacalendario';
 import funcionarios from './funcionarios';
-
-AppRegistry.registerComponent(appName, () => App);
+import funcionarios2 from './funcionarios2';
+import notifications from './notifications';
+import stacknavigator from './stacknavigator';
+AppRegistry.registerComponent(appName, () => funcionarios);
